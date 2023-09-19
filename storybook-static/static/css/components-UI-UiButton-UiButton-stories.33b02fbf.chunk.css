@@ -1,0 +1,55 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #9c9c9c;
+
+  --font-size-small: 14px;
+  --font-family-main: sans-serif;
+  --font-bold: 600;
+
+  --transition: 0.4s;
+}
+
+.UiButton_button__mRVlG {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-bold);
+  background: none;
+  outline: none;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.UiButton_button__mRVlG:disabled,
+.UiButton_button__mRVlG:disabled:hover {
+  color: var(--color-gray);
+  border-color: var(--color-gray);
+  cursor: auto;
+  background-color: transparent;
+}
+
+.UiButton_dark__ocVN6 {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.UiButton_dark__ocVN6:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.UiButton_light__X4\+mf {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+
+.UiButton_light__X4\+mf:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+
+/*# sourceMappingURL=components-UI-UiButton-UiButton-stories.33b02fbf.chunk.css.map*/
